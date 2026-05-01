@@ -19,3 +19,15 @@ OpenList 用于管理网盘文件，并提供 WebDAV、API 等能力。
 6.安装完成后访问：
 ```
 http://YOUR_SERVER_IP:5244
+```
+获取 OpenList Token
+进入 OpenList 后台，在管理页面中找到 API Token。
+
+配置 go-emby2openlist 时需要用到该 Token。
+
+示例：
+```
+openlist:
+  host: http://YOUR_SERVER_IP:5244
+  token: YOUR_OPENLIST_TOKEN
+```
