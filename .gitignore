@@ -1,1 +1,92 @@
+# ==============================
+# System files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
 
+# ==============================
+# Editor / IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+log/
+
+# ==============================
+# Temp files
+# ==============================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# ==============================
+# Environment files
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Sensitive config
+# ==============================
+config/config.yml
+config.yml
+docker-compose.override.yml
+
+# ==============================
+# rclone config
+# ==============================
+rclone.conf
+.rclone.conf
+
+# ==============================
+# SSL certificates and private keys
+# ==============================
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+ssl/
+!ssl/.gitkeep
+
+# ==============================
+# go-emby2openlist runtime data
+# ==============================
+lib/
+openlist-local-tree/
+custom-js/*.local.js
+custom-css/*.local.css
+
+# ==============================
+# Emby backup / database
+# ==============================
+emby-backup*.tar.gz
+emby-backup*/
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Download files
+# ==============================
+*.torrent
+downloads/
+download/
+
+# ==============================
+# Test files
+# ==============================
+test/
+tests/tmp/
