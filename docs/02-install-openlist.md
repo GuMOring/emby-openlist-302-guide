@@ -13,6 +13,9 @@ OpenList 用于管理网盘文件，并提供 WebDAV、API 等能力。
 3. 搜索 OpenList
 4. 点击安装
 5. 设置访问端口，例如：
-
 ```text
 5244
+```
+6.安装完成后访问：
+```
+http://YOUR_SERVER_IP:5244
