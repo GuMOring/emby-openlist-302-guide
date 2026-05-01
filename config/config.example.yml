@@ -1,1 +1,35 @@
+# Emby 访问配置
+emby:
+  host: http://YOUR_SERVER_IP:8096
+  mount-path: /opt/emby_data
+  proxy-error-strategy: origin
+  images-quality: 100
+  download-strategy: direct
 
+# OpenList 访问配置
+openlist:
+  host: http://YOUR_SERVER_IP:5244
+  token: YOUR_OPENLIST_TOKEN
+
+# 路径映射
+path:
+  emby2openlist:
+    - /opt/emby_data/1:/1
+    - /opt/emby_data/2:/2
+    - /opt/emby_data/3:/3
+    - /opt/emby_data/4:/4
+    - /opt/emby_data/5:/5
+    - /opt/emby_data/6:/6
+    - /opt/emby_data/7:/7
+    - /opt/emby_data/8:/8
+    - /opt/emby_data/9:/9
+    - /opt/emby_data/10:/10
+
+# 缓存配置
+cache:
+  enable: false
+  expired: 1d
+
+# 日志配置
+log:
+  disable-color: false
