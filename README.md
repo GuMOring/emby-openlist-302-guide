@@ -886,3 +886,22 @@ https://emby.media/
 ```
 
 请勿将本项目用于任何违法或侵权用途。
+## 致谢 / Credits
+
+## 致谢 / Credits
+
+本项目的部分内容、部署方案、配置示例或使用流程参考/调用了以下开源项目：
+
+- [go-emby2openlist](https://github.com/AmbitiousJun/go-emby2openlist)  
+  Emby + OpenList 网盘直链反向代理服务。
+
+- [OpenList](https://github.com/OpenListTeam/OpenList)  
+  支持多种存储的文件列表程序。
+
+- [qBittorrent](https://github.com/qbittorrent/qBittorrent)  
+  跨平台 BitTorrent 客户端。
+
+- [rclone](https://github.com/rclone/rclone)  
+  用于管理云存储文件的命令行程序。
+
+感谢以上项目及其贡献者的开源贡献。
