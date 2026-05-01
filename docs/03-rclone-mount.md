@@ -405,24 +405,3 @@ http://YOUR_SERVER_IP:8097
 并确认浏览器开发者工具中出现了 `302` 或 `307` 跳转。
 
 ---
-
-## 十三、安全提醒
-
-不要把以下内容上传到 GitHub：
-
-```text
-rclone.conf
-OpenList 用户名
-OpenList 密码
-OpenList Token
-真实服务器 IP
-网盘账号信息
-```
-
-公开仓库中建议只写：
-
-```text
-YOUR_SERVER_IP
-YOUR_OPENLIST_USERNAME
-YOUR_OPENLIST_PASSWORD
-```
